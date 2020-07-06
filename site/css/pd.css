@@ -1,0 +1,351 @@
+/*-- header --*/
+
+
+/*-- end  header --*/
+
+/*-- start logo --*/
+.logo{
+  color: #fe9126;
+  font-size: 50px;
+}
+.grid-container {
+  display: grid;
+  grid-row-gap: 50px;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.grid-item {
+ 
+  
+  padding: 30px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.l1{
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+}
+
+.logo_products {
+    padding: 2em 0;
+}
+.w3ls_logo_products_left {
+    float: left;
+    text-align: center;
+    width: 33.33%;
+}
+.w3ls_logo_products_left h1 a{
+    font-size: 40px;
+    color: #fe9126;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    line-height: 1;
+}
+.w3ls_logo_products_left1 {
+    float: left;
+    margin-top: 0.6em;
+    width: 33.33%;
+}
+.w3ls_logo_products_left1 ul.phone_email li{
+    display:inline-block;
+    color:#212121;
+}
+/*-- end logo --*/
+/*-- start navbar --*/
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+.logo-nav-left1 ul li.active a.act{
+    color:#fff !important;
+}
+.multi-column-dropdown li a {
+    color: #999 !important;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    background-color: transparent;
+     color: #fff !important;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border: none;
+}
+.navbar {
+    position: relative;
+    min-height: 50px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    color: #fff;
+}
+.navbar-default {
+    background: none;
+    border: none;
+}
+.navbar-collapse {
+    padding: 0;
+}
+ul.multi-column-dropdown h6 {
+    font-size: 20px;
+    color:#fe9126;
+    margin: 0 0 0em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #E4E4E4;
+    text-transform: capitalize;
+}
+.multi-column-dropdown li {
+    list-style-type: none;
+    margin: 14px 0;
+}
+.multi-column-dropdown li a {
+    display: block;
+    clear: both;
+    line-height: 1.428571429;
+    color: #999 !important;
+    white-space: normal;
+    font-weight:500 !important;
+}
+.dropdown-menu.columns-3 {
+    min-width: 190px;
+    padding: 20px 30px;
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background: none;
+    border: none;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    background-color: transparent;
+}
+.nav > li > a:hover, .nav > li > a:focus {
+    background: none;
+    color:#fff !important;
+}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+    color: #fff;
+}
+.multi-gd-img img {
+    width: 100%;
+}
+.navigation-agileits {
+    background: #fe9126;
+}
+.navbar-nav > li {
+    float: left;
+    margin-left: 17px;
+}
+.navbar-nav > li:nth-child(1) {
+    margin-left: 0px;
+}
+/*-- banner --*/
+.navbar-collapse {
+    padding: 0;
+    box-shadow: none;
+}
+.navbar {
+    margin-bottom: 0;
+    border: none;
+}
+/*-- end navbar --*/
+
+
+/* Slideshow container */
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color:  #fe9126;
+  font-size: 35px;
+  font-weight: bold;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color:  #fe9126;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+/*end  Slideshow container */
+
+/*-- start video--*/
+.ex5{
+    font-size: 40px;
+    text-align: left;
+    color: #fe9126;
+    text-decoration: none;
+    display: block;
+    line-height: 1.8;
+    padding-left: -30px;
+     padding-top: 40px;
+}
+/*-- end video--*/
+
+/*-- new-products --*/
+#a1 {
+
+text-align:center;
+padding:15px;
+background-color: #fe9126;
+}
+
+div.gallery {
+  border: 1px solid black;
+  width:230px;
+  float:left;
+ margin:20px;
+ 
+}
+
+div.desc{
+padding:30px;
+font-size: 20px;
+text-align: center;
+
+}
+
+.button1{
+  background-color: #005ce6; 
+  border: none;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+/*-- //new-products --*/
+
+/*-- start side nav--*/
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 250px;
+  top: 10;
+  left: 0;
+  background-color: #ff8533;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 10;
+  right: 25px;
+  font-size: 36px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color:#444;
+}
+/*-- end side nav--*/
+
+
+/*-- start footer --*/
+.f {
+  display: grid;
+  grid-row-gap: 50px;
+  grid-template-columns: auto auto auto;
+  background-color: black;
+  padding: 10px;
+}
+
+.f1{
+ 
+  padding: 10px;
+  font-size:25px;px;
+  text-align: center;
+}
+/*-- end footer --*/
